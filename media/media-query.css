@@ -105,6 +105,10 @@
         text-align: center;
     }
 
+    .left-side-text h3 {
+        margin-top: 4px;
+    }
+
     .left-side-text button {
         margin-bottom: 15px;
     }
