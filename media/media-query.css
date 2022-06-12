@@ -7,7 +7,7 @@
     }
 
     form input, form button {
-        width: 100%;
+        width: 95%;
     }
 }
 
@@ -65,8 +65,12 @@
         display: none;
     }
 
-    form input, form button {
+    form {
         width: 100%;
+    }
+
+    form input, form button {
+        width: 60%;
     }
 
 }
@@ -117,12 +121,16 @@
         display: none;
     }
 
-    form input {
+    form {
         width: 100%;
     }
 
+    form input {
+        width: 65%;
+    }
+
     form button {
-        width: 100%;
+        width: 65%;
     }
 }
 
@@ -183,12 +191,16 @@
 
     /* === section form ===*/
 
-    form input {
+    form {
         width: 100%;
     }
 
+    form input {
+        width: 90%;
+    }
+
     form button {
-        width: 100%;
+        width: 90%;
     }
     
 }
