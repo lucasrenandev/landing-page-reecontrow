@@ -5,6 +5,10 @@
     .right-side-image img {
         width: 50%;
     }
+
+    form input, form button {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
@@ -60,6 +64,11 @@
     .right-side {
         display: none;
     }
+
+    form input, form button {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
@@ -102,6 +111,14 @@
 
     .right-side {
         display: none;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
     }
 }
 
@@ -162,7 +179,11 @@
 
     /* === section form ===*/
 
-    form {
+    form input {
+        width: 100%;
+    }
+
+    form button {
         width: 100%;
     }
     
@@ -200,5 +221,13 @@
 
     .footer-social-media h4 {
         text-align: center;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    form button {
+        width: 100%;
     }
 }
