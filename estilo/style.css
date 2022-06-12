@@ -255,7 +255,7 @@ main {
 }
 
 form {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +265,7 @@ form {
 }
 
 form input {
-    width: 55%;
+    width: 33%;
     height: 60px;
     border: none;
     outline: none;
@@ -280,7 +280,7 @@ form input::placeholder {
 }
 
 form button {
-    width: 55%;
+    width: 33%;
     height: 60px;
     border: none;
     border-radius: 10px;
