@@ -1,0 +1,55 @@
+
+@media screen and (max-width: 1000px) {
+
+    /* === main === */
+
+    main {
+        flex-direction: column;
+    }
+
+    .left-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .content {
+        margin: 0;
+        text-align: center;
+    }
+
+    .right-content {
+        display: none;
+    }
+
+    /* === section assuntos abordados ===*/
+
+    .container-assuntos h3 {
+        text-align: center;
+    }
+
+    .assuntos {
+        flex-direction: column;
+    }
+
+    /* === section fazer parte ===*/
+
+    .left-side {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .left-side-text {
+        text-align: center;
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    /* === section form container ===*/
+
+    form {
+        width: 100%;
+    }
+    
+}
