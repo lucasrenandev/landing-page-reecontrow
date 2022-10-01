@@ -285,14 +285,11 @@ form button {
     border: none;
     border-radius: 10px;
     background-color: #1A7993;
-}
-
-form button a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 700;
     color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 /* ==== FOOTER ==== */
